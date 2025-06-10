@@ -1,51 +1,170 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jejeola Farms</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="logo.png">
-</head>
-<body>
-  <header>
-    <img src="logo.png" alt="Jejeola Farms Logo" class="logo" />
-    <h1>Welcome to Jejeola Farms</h1>
-    <p>Empowering agriculture in Nigeria – Poultry, Goats, Rabbits, Fish, Cassava, Bananas & Oil Palm</p>
-  </header>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
 
-  <section>
-    <h2>Farm Gallery</h2>
-    <div class="gallery">
-      <img src="images/poultry.jpg" alt="Poultry Farming">
-      <img src="images/goats.jpg" alt="Goat Farming">
-      <img src="images/fish.jpg" alt="Fish Farming">
-      <img src="images/oil-palm.jpg" alt="Oil Plantation">
-      <img src="images/banana.jpg" alt="Banana Plantation">
-      <img src="images/cassava.jpg" alt="Cassava Farming">
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Public Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-white p-4 pb-2 justify-between">
+          <h2 class="text-[#131811] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Jejeola Farms</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-[#131811] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-[#131811]" data-icon="List" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="@container">
+          <div class="@[480px]:px-4 @[480px]:py-3">
+            <div
+              class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-white @[480px]:rounded-lg min-h-80"
+              style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWnNd_Fj3fLhG0ABoraKuAVfpyWvIGwG1PYCfFyWUP-6xwnS4NuRm8cs_HuPU8eJYaAp9rVul2zm4QkOnZ_4FF7ddSeq8eW85z96hRslCPtrNvAHbsSkCfmcwHPEF2f21-i1r-IyDkr4H3LSbG_q9Cw0AM3EwgdsEFpnrZWm9qkaYV8SDrJ8gxn6biBxRzX3BI8zlb9wU7bK4cMnfa_UQMWQI80jGGhgVOm0YlPb9eQ6pUgR1jUad2_NEUoIMqGtE-7NJVq2eysgQ");'
+            >
+              <div class="flex p-4"><p class="text-white tracking-light text-[28px] font-bold leading-tight">Welcome to Jejeola Farms</p></div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-[#131811] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Farming Activities</h2>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBclKzXd2EkOYMsR3FmgvblWzx_m8zTlIdpiHdcclRzfPmLdgyGWuHxcmQMnp8sRVHI-VzzeUFc0FMuFUVX0XOmCY1wKxOMRROUl9qjMdJMWtaPLyEeYTZtaeUwx76s6UmkNzTSFV64OvUs2OhCGFKSn2FkZIK54AwVInXCy205r6wp_-gz67fwZjf-LBTVW8UHcMLghtAzXPaQOk_Kt73xeMS9TH3MVlXtxfhQBnHGxZtQngpzhdrMMCZyjJAxo2zfrFB26MPV8Tc");'
+            ></div>
+            <div>
+              <p class="text-[#131811] text-base font-medium leading-normal">Poultry Farming</p>
+              <p class="text-[#6f8863] text-sm font-normal leading-normal">Sustainable poultry practices for high-quality eggs and meat.</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBaoP7leATDV-xHuKLwJJ6PZhHqCsUAqDzr_aaK_pRTKrVRnKc-cjvqgM26AnVUTldRNqx6R78m9cTijUBDkYcqSmjhfXa9T-oJly86ncS-qgG3w3zv_wQ96CtdwM-iZu-Y8dEbMqsHDHtcts-3aSqZWv2KVuTLym2oVmkXzDX2Ig8Ft6XJgI4ZB3VrbGPNxov1jEI155_3N5mw6bVoah1lG_bpHrwmWkZBIXZNlofW2sqgMJ6qohrnFJ6wn6Jirm-89AK7_kPUJW0");'
+            ></div>
+            <div>
+              <p class="text-[#131811] text-base font-medium leading-normal">Goat Farming</p>
+              <p class="text-[#6f8863] text-sm font-normal leading-normal">Ethical goat farming, producing premium goat meat and milk.</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDmbrJnykjsIEIJjsfLbjn8xsEseMBSiezo1G2qkV56biuaMWWEXapjx2371QrqICc6qMUuOoS-szx6K1QLDpy3KKO5PXodB6kDeI-M9xd0eodiyb-5einwmc7NcqDFSM_UPLj6rc2kBoHAPz6hIKYjYpUemwbC-tZiaisWLcjzWRC8CuDDJ32YTUNt0ILveTbq70dwD4dN3dFMGch4MFLvopDxj1Cs_MuGGppkNkqJqAR0znU6aBCYmMpG2ziyLk8ozoMS9LBEHLY");'
+            ></div>
+            <div>
+              <p class="text-[#131811] text-base font-medium leading-normal">Rabbit Farming</p>
+              <p class="text-[#6f8863] text-sm font-normal leading-normal">Specialized rabbit farming for lean meat and fur.</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAB0AQhoiLYlKcJTD-1xtL07fz217PpX1aqziXYG7an-OxsAr_uVBcWbokGIQEgYJWc5ExFcerjzbvO-8EBuoxXikmmEuF295OgP5xTbGQyPKUAdBKmMWIK-cJ8nBGUdBssPYkE2SRYVj4D1Qd2jYntoyZHKEZXL6LuhizNqS2u-KIsd8fszpr4CWj-v45ufCZlZ3zEQaDusu6ZpCag7sHAtGWE-COTg_ktqt9DEv0t-oCuNp8KH-h_U_QaUnPzN_RGRHc5rH3zMt0");'
+            ></div>
+            <div>
+              <p class="text-[#131811] text-base font-medium leading-normal">Fish Farming</p>
+              <p class="text-[#6f8863] text-sm font-normal leading-normal">Innovative fish farming techniques for fresh, healthy fish.</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYcpnSMLankKd4HIHGskAn4uxZf-jxKyE7RUEfoQYMQab5Itru3qhNj40OP00F0BihMFYIxfYnHj9sXVIaKYn3Tsp9z2w7N_GXXOpBKoEwVqpxJXVQk_bLM8Ymj2wOuPO0jz9EEC8keysg1MM7luFRmUnwyVaBUj0QvwbSv7VamyfxNtCstu9me2dY1ociB7qlKzOedUuHKLDyfg3xXHqhkg2NhOvoLegfAhdZ_r8xGa_4LNLztjkryiLigTsSFJHzwbd3AoIv-gg");'
+            ></div>
+            <div>
+              <p class="text-[#131811] text-base font-medium leading-normal">Oil Palm Cultivation</p>
+              <p class="text-[#6f8863] text-sm font-normal leading-normal">Large-scale oil palm cultivation, yielding high-quality palm oil.</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAm_bLvMiZR-lJYbP5tgU3D5AYD77WZw_7HVa4jtpvKLb9_AUcYximwxyj-JBpP4RfbwyUXzW-6n79a8FO85icsdp_iuUbCgy1R7BCU48ddS7Plmf0Id0LtPUcKz_o6XL2tF7WKpC2x5qqGoBCT5F27ZVbdPgDxgmdvgAhqSpdnB6iFfbwVCVjdO-t8xIiEKNs3zslxgjXq8bOw1gjMHsgnmGgA-UF1cKgS8rB9HLCkV9TMo39xT2Ku8OxfYVwKmP0UeRPvQhTk33M");'
+            ></div>
+            <div>
+              <p class="text-[#131811] text-base font-medium leading-normal">Banana Cultivation</p>
+              <p class="text-[#6f8863] text-sm font-normal leading-normal">Extensive banana plantations, offering a variety of banana types.</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCm0ylHdhuT6AmHzAiv0B5fBDP-eClvJt6RoqjwvVfxRlRYbd1c7eiAvw9mZ9gNb00jpJzgotHNkrjPkBnOb5GFlsfbPcbxx2IT3W47KfDibjeXG-n_InuyG9zJ4CKcVDDa6BPLjPZt6o6eiUgcrZxPIo_eKJwiueL-ROu6LNO9znDxO7vUpKN7hcbjIsDUA-L-5izt4zPRc9gZ6zNd44w6Sms_u0gOd2I5kLk4Q0UnvdWSIDm7cJ_7GXpB5ZdUv7Nvddemsg_ZldA");'
+            ></div>
+            <div>
+              <p class="text-[#131811] text-base font-medium leading-normal">Cassava Cultivation</p>
+              <p class="text-[#6f8863] text-sm font-normal leading-normal">Efficient cassava cultivation, providing high-yield cassava products.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#f2f4f0] bg-white px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#131811]" href="#">
+            <div class="text-[#131811] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#131811] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#6f8863]" href="#">
+            <div class="text-[#6f8863] flex h-8 items-center justify-center" data-icon="Info" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm16-40a8,8,0,0,1-8,8,16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40A8,8,0,0,1,144,176ZM112,84a12,12,0,1,1,12,12A12,12,0,0,1,112,84Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#6f8863] text-xs font-medium leading-normal tracking-[0.015em]">About</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#6f8863]" href="#">
+            <div class="text-[#6f8863] flex h-8 items-center justify-center" data-icon="ShoppingBag" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#6f8863] text-xs font-medium leading-normal tracking-[0.015em]">Products</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#6f8863]" href="#">
+            <div class="text-[#6f8863] flex h-8 items-center justify-center" data-icon="Phone" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#6f8863] text-xs font-medium leading-normal tracking-[0.015em]">Contact</p>
+          </a>
+        </div>
+        <div class="h-5 bg-white"></div>
+      </div>
     </div>
-  </section>
-
-  <section>
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <section class="whatsapp">
-    <a href="https://wa.me/234XXXXXXXXXX" target="_blank">
-      <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
-      Chat with us on WhatsApp
-    </a>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Jejeola Farm. All rights reserved.</p>
-  </footer>
-</body>
+  </body>
 </html>
